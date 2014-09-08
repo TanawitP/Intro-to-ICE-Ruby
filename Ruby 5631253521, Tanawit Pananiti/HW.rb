@@ -1,8 +1,5 @@
 require 'csv'
 data = CSV.read ('data.csv')
-puts "Show all data"
-puts data
-puts " "
 mean = 0.0
 score = Array.new(data.length-1) 
 colorname = Array.new(data.length-1)
